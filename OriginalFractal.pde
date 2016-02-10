@@ -12,11 +12,13 @@ public void myFractal(int x, int y, int siz){
 	if(siz>10){
 		pushMatrix();
 		translate(x-siz/2,y);
+		rotate(-PI/4);
 		myFractal(0,0, siz/2);
 		popMatrix();
 
 		pushMatrix();
 		translate(x+siz/2,y);
+		rotate(PI/4);
 		myFractal(0,0, siz/2);
 		popMatrix();
 		
