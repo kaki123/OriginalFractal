@@ -5,7 +5,8 @@ public void setup() {
 }
 public void draw(){
   fill(155,155,255);
-  myFractal(350,350,200,200);
+  myFractal(380,380,180,180);
+  myFractal(150,150,180,180);
 
 }
 
